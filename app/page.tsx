@@ -1,10 +1,9 @@
-
+import MainMenu from "@/components/ui/8bit/blocks/main-menu"
 
 export default function Home() {
   return (
-    <main>
-      <h1>Welcome to the CTF Challenge!</h1>
-      <p>Get ready to test your skills and have fun!</p>
-    </main>
-  );
+    <div className="min-h-screen flex items-center justify-center">
+      <MainMenu className="w-full max-w-[700px]" />
+    </div>
+  )
 }

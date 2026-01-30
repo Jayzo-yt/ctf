@@ -15,7 +15,7 @@ export default function ChapterIntro({
   className,
   title,
   subtitle,
-  backgroundSrc = "/placeholder.svg",
+  backgroundSrc = "/pass.png",
   align = "center",
   height = "md",
   darken = 0.5,
