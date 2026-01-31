@@ -12,7 +12,7 @@ export default function ChallengeStart() {
         align="center"
         darken={0.5}
       />
-      <Button variant="outline" className="justify-center bottom-50 absolute" href="/challenge/loading">START</Button>
+      <Button variant="outline" className="justify-center bottom-50 absolute">START</Button>
     </div>
   )
 }
